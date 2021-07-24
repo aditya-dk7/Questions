@@ -22,6 +22,8 @@ else:
         writer_obj.writerow(questionSolved)
     print("[*] Success.\n")
 os.system("git add ./")
+s = "git commit -m " + "\"" + "Question " + questionNumber + " " + nameOfQuestion + " " + linkOfQues + " " + difficultyOfQuestion + " " + d1 + "\""
+os.system(s)
 input()
 
 
